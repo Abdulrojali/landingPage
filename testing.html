@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page </title>
+    <link rel="stylesheet" href="testing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="headerlogo">
+                <a href="">abdul <span>rojali</span></a>
+            </div>
+            <div class="headerlinks">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#project">project</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+            <div class="headertoggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <nav id="home">
+            <div class="nav-content">
+                <h3>selamat datang di website kami</h3>
+                <p>disini kami menyediakan banyak layanan website mulai dari slincing website,design UI/UX. dan berbagai macam fitur untuk website anda lainnya. pakai jasa kami untuk pembuatan website anda lebih menarik dan cepat</p>
+            </div>
+        </nav>
+        <main id="about">
+            <div class="aboutjudul"><h3>about <span>me</span></h3></div>
+            <div class="main-content">
+                <img src="https://images.pexels.com/photos/11798029/pexels-photo-11798029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" class="about-img">
+                <div class="about-content">
+                    <h3>halo nama saya abdul rojali</h3>
+                    <h3>saya berusia 20 tahun</h3>
+                    <h3>saya adalah seorang fontend developer</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <aside id="project">
+            <div class="grids-project">
+                <div class="grid-content">
+                    <img src="https://images.unsplash.com/photo-1549637642-90187f64f420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80" alt="">
+                    <h3>company profile</h3>
+                    <p>membuat sebuah website company profile menggunakan html css dan javascript</p>
+                </div>
+                <div class="grid-content">
+                    <img src="https://images.unsplash.com/photo-1569180880150-df4eed93c90b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="">
+                    <h3>marketplace website</h3>
+                    <p>membuat sebuah website marketplace menggunakan  boostrap sass react js</p>
+                </div>
+                <div class="grid-content">
+                    <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="">
+                    <h3>website blog</h3>
+                    <p>membuat sebuah website blog menggunakan talwind vue js</p>
+                </div>
+                <div class="grid-content">
+                    <img src="https://images.unsplash.com/photo-1649183424680-464747a8e43d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=386&q=80" alt="">
+                    <h3>website pernikahan</h3>
+                    <p>membuat sebuah website pernikahan menggunakan talwind vue js</p>
+                </div>
+            </div>
+        </aside>
+        <section id="skill">
+            <div class="myskill"><h3>my <span>skill</span></h3></div>
+            <div class="skill-content">
+                <ul>
+                    <li><i class="fa-brands fa-html5"></i></li>
+                    <li><i class="fa-brands  fa-css3-alt"></i></li>    
+                    <li><i class="fa-brands fa-bootstrap"></i></li>
+                    <li><i class="fa-brands fa-sass"></i></li>
+                    <li><i class="fa-brands fa-square-js"></i></li>
+                </ul>
+            </div>
+        </section>
+        <footer id="contact">
+            <div class="contact-content">
+                <input type="text" class="username" placeholder="username">
+                <input type="text" class="email" placeholder="email">
+               <textarea name="massage" id="" cols="30" rows="10" placeholder="massage" class="massage"></textarea>
+               <button onclick="handlerMassage()">click</button>
+            </div>
+        </footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="list-content">
+                    <ul>
+                        <h3>Navigasi</h3>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#project">project</a></li>
+                        <li><a href="#skill">skill</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                    <ul>
+                        <h3>Project</h3>
+                        <li><a href="">company profil</a></li>
+                        <li><a href="">marketplace</a></li>
+                        <li><a href="">blogspot</a></li>
+                        <li><a href="">wedding website</a></li>
+                    </ul>
+                    <ul>
+                        <h3>skill</h3>
+                        <li><a href="">html</a></li>
+                        <li><a href="">css</a></li>
+                        <li><a href="">bootstrap</a></li>
+                        <li><a href="">sass</a></li>
+                        <li><a href="">talwind</a></li>
+                        <li><a href="">javascript</a></li>
+                    </ul>
+                </div>
+                <div class="content-utama">
+                    <h3>portfolio website</h3>
+                    <p>selamat datang dan selamat menikmati</p>
+                    <b>copyright by@AbdulRojali</b>
+                    <p>30/05/2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="testing.js"></script>
+</body>
+</html>
